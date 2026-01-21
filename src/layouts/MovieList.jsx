@@ -10,7 +10,7 @@ const MovieList = () => {
   // Sample movie data (replace with your API data)
 
   const { movie } = useSelector(state => state.movie)
-  console.log("moive", movie)
+  console.log("moivee ", movie)
 
   const navigate = useNavigate()
 
